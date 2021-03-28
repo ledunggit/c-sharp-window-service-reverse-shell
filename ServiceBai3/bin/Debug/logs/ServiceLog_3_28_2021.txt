@@ -1,0 +1,8 @@
+Create a reverse shell server after 5s, please wait....
+Internet status:có kết nối internet
+Internet status:có kết nối internet
+Internet status:có kết nối internet
+Internet status:có kết nối internet
+Internet status:có kết nối internet
+Internet status:có kết nối internet
+Unable to write data to the transport connection: An established connection was aborted by the software in your host machine.

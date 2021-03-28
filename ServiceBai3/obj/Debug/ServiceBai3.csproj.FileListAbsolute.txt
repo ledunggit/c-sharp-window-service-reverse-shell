@@ -1,0 +1,8 @@
+C:\Users\LeDung\source\repos\ServiceBai3\ServiceBai3\bin\Debug\ServiceBai3.exe.config
+C:\Users\LeDung\source\repos\ServiceBai3\ServiceBai3\bin\Debug\ServiceBai3.exe
+C:\Users\LeDung\source\repos\ServiceBai3\ServiceBai3\bin\Debug\ServiceBai3.pdb
+C:\Users\LeDung\source\repos\ServiceBai3\ServiceBai3\obj\Debug\ServiceBai3.ProjectInstaller.resources
+C:\Users\LeDung\source\repos\ServiceBai3\ServiceBai3\obj\Debug\ServiceBai3.csproj.GenerateResource.cache
+C:\Users\LeDung\source\repos\ServiceBai3\ServiceBai3\obj\Debug\ServiceBai3.csproj.CoreCompileInputs.cache
+C:\Users\LeDung\source\repos\ServiceBai3\ServiceBai3\obj\Debug\ServiceBai3.exe
+C:\Users\LeDung\source\repos\ServiceBai3\ServiceBai3\obj\Debug\ServiceBai3.pdb
